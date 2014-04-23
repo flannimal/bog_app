@@ -1,0 +1,59 @@
+h1 {
+text-align: center;
+}
+
+
+/*body {
+	background: url(http://www.richard-seaman.com/USA/States/Illinois/VoloBog/VoloBog.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+*/
+
+
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+#delete {
+		background-color: #e1533c; 
+    padding: 2px 4px;
+    font: 13px sans-serif;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    border-color: #aaa #444 #444 #aaa;
+    color: #000
+}
+
+
+#delete:hover {
+		background-color: #f2b8b2; 
+    padding: 2px 4px;
+    font: 13px sans-serif;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    border-color: #aaa #444 #444 #aaa;
+    color: #000
+}

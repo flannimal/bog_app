@@ -1,0 +1,26 @@
+<head>
+	<link href="/stylesheets/style2.css" media="screen" rel="stylesheet" type="text/css" />
+	<div id="navbar"> 
+  <ul> 
+	<li><a href = "/bogs">Menu</a></li> 
+	<!-- <li><a href = "bogs/list">Display</a></li>  -->
+  </ul> 
+</div> 
+
+</head>
+
+<strong> Creatures Discovered </strong>
+
+	<% @creatures.each do |creature| %>
+	    <div>
+	        Name: <%= creature[:name] %> <br>
+	        Description: <%= creature[:description] %> <br>
+	      	<a href = "/list/<%= creature[:id] %>/edit"> <button> Edit / Delete </button>	</a> 
+					<br>
+				</br>
+	    </div>
+
+	<% end %>
+
+
+

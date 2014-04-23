@@ -1,17 +1,25 @@
-Menu
-
-<a href = "bogs/new">Create</a>
-
+<head>
+	<h1>
+		<strong> Welcome to the Bog </strong>
+	</h1>
+	<link href="/stylesheets/style1.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
 
 <br>
-</br>
-<% @creatures.each do |creature| %>
-    <div>
-        Name: <%= creature[:name] %> <br>
-        Description: <%= creature[:description] %> <br>
-      	<a href = "bogs/<%= creature[:id] %>/edit">Select </a>
-				<br>
-			</br>
-    </div>
+<br>
 
-<% end %>
+<body>
+
+	<div id="navbar"> 
+  <ul> 
+	<li><a href = "bogs/new">Add</a></li> 
+	<li><a href = "bogs/list">Display</a></li> 
+  </ul> 
+</div> 
+
+
+
+	<br>
+	<br>
+
+</body>
