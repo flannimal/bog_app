@@ -1,0 +1,14 @@
+<form action="/bogs/<%= @creature.id %>" method="post">
+    <input name="_method" type="hidden" value="put" />
+    <input type="text" name="creature[name]" value="<%= @creature.name %>">
+    <textarea name="creature[description]" value="<%= @creature.description %>"></textarea>
+    <%= token_tag form_authenticity_token %>
+    <button> Update Creature </button>
+
+</form>
+
+
+<form action="/bogs/<%=@creature.id %>/delete" method="get">
+<%= token_tag form_authenticity_token %>
+<button> Delete </button>
+</form>

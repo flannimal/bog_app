@@ -1,0 +1,17 @@
+Menu
+
+<a href = "bogs/new">Create</a>
+
+
+<br>
+</br>
+<% @creatures.each do |creature| %>
+    <div>
+        Name: <%= creature[:name] %> <br>
+        Description: <%= creature[:description] %> <br>
+      	<a href = "bogs/<%= creature[:id] %>/edit">Select </a>
+				<br>
+			</br>
+    </div>
+
+<% end %>
