@@ -35,6 +35,32 @@ text-align: center;
 	background-color: #fff; 
 	} 
 
+
+#update {
+		background-color: #00aaee;
+    padding: 2px 4px;
+    font: 13px sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    border-color: #aaa #444 #444 #aaa;
+    color: #000
+}
+
+#update:hover {
+		background-color: #31748f; 
+    padding: 2px 4px;
+    font: 13px sans-serif;
+    color: #bfbcc5;
+    border: 1px solid #000;
+    border-radius: 8px;
+    border-color: #aaa #444 #444 #aaa;
+    color: #000
+}
+
+
+
 #delete {
 		background-color: #e1533c; 
     padding: 2px 4px;
